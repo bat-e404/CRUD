@@ -1,0 +1,19 @@
+<div class="card border-primary mb-3 " style="max-width: 20rem;">
+    <div class="card-header text-center">
+        <i class="fas fa-kiwi-bird"></i>
+        Nueva Tarea</div>
+    <div class="card-body">
+      
+        <form action="" >
+            <div class="form-group">
+                <input type="text" class="form-control" name="" id="" placeholder="Titulo" #newTitulo>
+            </div>
+            <div class="form-group pt-2">
+                <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Descripción" #des></textarea>
+            </div>
+            <div class="d-grid gap-2 pt-2">
+                <button class="btn btn-sm btn-primary" type="button" (click)="addTask(newTitulo.value,des.value)"><i class="fas fa-plus"></i></button>
+              </div>
+        </form>
+    </div>
+  </div>
